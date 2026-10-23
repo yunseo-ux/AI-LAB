@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 980" fill="none">
+<defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ded8ca"/><stop offset="1" stop-color="#b8ae9e"/></linearGradient>
+ <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#716b60"/><stop offset="1" stop-color="#393933"/></linearGradient>
+ <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d9b89f"/><stop offset="1" stop-color="#aa806a"/></linearGradient>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .44 0 0 0 0 .39 0 0 0 0 .31 0 0 0 .09 0"/></filter>
+</defs>
+<path fill="url(#wall)" d="M0 0h1240v980H0z"/>
+<path fill="#c6c0b3" d="M0 0h1240v180H0z" opacity=".38"/>
+<path stroke="#f5f0e5" stroke-width="5" opacity=".7" d="M86 0v980M1070 0v980M0 135h1240M0 792h1240"/>
+<path fill="#a29a8c" d="M0 798h1240v182H0z"/>
+<path fill="#ebe5d8" d="M70 0h320v980H70z" opacity=".44"/>
+<path fill="url(#skin)" d="M682 170c-3-68 33-124 91-128 61-4 96 44 92 113l-4 61-169 4-10-50Z"/>
+<path fill="#41352e" d="M677 190c-18-67-5-160 83-182 68-17 126 27 126 114 0 26-5 54-15 77l-24-81c-25 22-79 31-160 21l-10 51Z"/>
+<path stroke="#41352e" stroke-width="17" stroke-linecap="round" d="M722 66c-29 55-25 135 10 188m104-194c36 60 32 126 3 175"/>
+<path fill="#d8d1c4" d="m665 219 176-10 22 50-113 78-115-52 30-66Z"/>
+<path fill="url(#coat)" d="m651 235-91 53-54 314 39 317h305l33-325-70-321-73-42-45 64-44-60Z"/>
+<path fill="#e9e0cf" d="m657 238 52 74-40 113-67-131 55-56Zm123-3-71 77 40 111 75-139-44-49Z"/>
+<path fill="#514c43" d="m568 416 258 2-6 24-253-1 1-25Zm-14 140 285 4-3 25-285-4 3-25Z"/>
+<path fill="#2e2e2a" d="m610 919 78 2 5 59H589l21-61Zm150 1 76-3 20 63H751l9-60Z"/>
+<path fill="#d6cebf" d="M70 0h5v980h-5zm995 0h5v980h-5z"/>
+<path filter="url(#grain)" opacity=".45" d="M0 0h1240v980H0z"/>
+</svg>

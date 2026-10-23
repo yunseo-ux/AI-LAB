@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1024" viewBox="0 0 2048 1024">
+  <rect width="2048" height="1024" fill="#c4b6a0"/>
+  <svg x="0" y="0" width="256" height="1024" viewBox="0 0 256 1024" overflow="hidden"><g transform="translate(512 0) scale(-1 1)"><image href="/dress-code-hero.png" x="256" width="1536" height="1024"/></g></svg>
+  <image href="/dress-code-hero.png" x="256" width="1536" height="1024"/>
+  <svg x="1792" y="0" width="256" height="1024" viewBox="1792 0 256 1024" overflow="hidden"><g transform="translate(3584 0) scale(-1 1)"><image href="/dress-code-hero.png" x="256" width="1536" height="1024"/></g></svg>
+</svg>
