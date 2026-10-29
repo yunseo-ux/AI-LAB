@@ -6,3 +6,5 @@ dist/
 *.tmp.json
 test-results/
 playwright-report/
+
+.vercel
