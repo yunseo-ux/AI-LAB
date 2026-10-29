@@ -1,0 +1,299 @@
+{
+  "top": [
+    {
+      "id": "tee",
+      "name": "무지 코튼 티셔츠",
+      "en": "Plain cotton tee",
+      "formal": 1,
+      "color": "#b9b3a7"
+    },
+    {
+      "id": "shirt",
+      "name": "무지 셔츠",
+      "en": "Clean cotton shirt",
+      "formal": 3,
+      "color": "#e9e3d7"
+    },
+    {
+      "id": "knit",
+      "name": "라운드 니트",
+      "en": "Soft crew knit",
+      "formal": 2,
+      "color": "#82786d"
+    },
+    {
+      "id": "blouse",
+      "name": "실크 블라우스",
+      "en": "Silk blouse",
+      "formal": 3,
+      "color": "#e6dfd2"
+    },
+    {
+      "id": "polo",
+      "name": "니트 폴로 셔츠",
+      "en": "Knit polo",
+      "formal": 2,
+      "color": "#303d50"
+    },
+    {
+      "id": "turtleneck",
+      "name": "블랙 터틀넥",
+      "en": "Black turtleneck",
+      "formal": 2,
+      "color": "#242222"
+    },
+    {
+      "id": "creamknit",
+      "name": "아이보리 케이블 니트",
+      "en": "Ivory cable-knit sweater",
+      "formal": 2,
+      "color": "#e8dfce"
+    },
+    {
+      "id": "hoodie",
+      "name": "그레이 오버핏 후드티",
+      "en": "Oversized gray hoodie",
+      "formal": 1,
+      "color": "#8e8e8b"
+    },
+    {
+      "id": "graytank",
+      "name": "차콜 슬리브리스 니트",
+      "en": "Charcoal sleeveless knit top",
+      "formal": 1,
+      "color": "#666463"
+    },
+    {
+      "id": "creambuttonknit",
+      "name": "아이보리 버튼 니트",
+      "en": "Ivory button-front knit",
+      "formal": 2,
+      "color": "#e9e0d2"
+    },
+    {
+      "id": "navysweatshirt",
+      "name": "네이비 오버핏 스웨트셔츠",
+      "en": "Oversized navy sweatshirt",
+      "formal": 1,
+      "color": "#23314a"
+    },
+    {
+      "id": "stripedshirt",
+      "name": "블루 스트라이프 셔츠",
+      "en": "Blue striped button-up shirt",
+      "formal": 3,
+      "color": "#d8dce0"
+    }
+  ],
+  "bottom": [
+    {
+      "id": "denim",
+      "name": "스트레이트 데님",
+      "en": "Relaxed dark denim",
+      "formal": 1,
+      "color": "#444a50"
+    },
+    {
+      "id": "slacks",
+      "name": "와이드 슬랙스",
+      "en": "Wide tailored trousers",
+      "formal": 3,
+      "color": "#5f574f"
+    },
+    {
+      "id": "skirt",
+      "name": "플리츠 미디 스커트",
+      "en": "Pleated midi skirt",
+      "formal": 3,
+      "color": "#653b3c"
+    },
+    {
+      "id": "brownskirt",
+      "name": "초콜릿 브라운 플리츠 스커트",
+      "en": "Chocolate brown pleated midi skirt",
+      "formal": 3,
+      "color": "#49352d"
+    },
+    {
+      "id": "cargo",
+      "name": "블랙 와이드 카고 팬츠",
+      "en": "Wide black cargo trousers",
+      "formal": 1,
+      "color": "#252629"
+    },
+    {
+      "id": "blackwide",
+      "name": "차콜 와이드 데님",
+      "en": "Charcoal wide-leg denim",
+      "formal": 1,
+      "color": "#2c2b2e"
+    },
+    {
+      "id": "blackmini",
+      "name": "블랙 플리츠 미니스커트",
+      "en": "Black pleated mini skirt",
+      "formal": 2,
+      "color": "#242326"
+    },
+    {
+      "id": "creamwide",
+      "name": "크림 와이드 팬츠",
+      "en": "Cream wide-leg trousers",
+      "formal": 1,
+      "color": "#e7dfd1"
+    },
+    {
+      "id": "navyskirt",
+      "name": "네이비 플레어 미디 스커트",
+      "en": "Navy flared midi skirt",
+      "formal": 3,
+      "color": "#202a3d"
+    }
+  ],
+  "outer": [
+    {
+      "id": "none",
+      "name": "아우터 없이",
+      "en": "No outerwear",
+      "formal": 0,
+      "color": "transparent"
+    },
+    {
+      "id": "blazer",
+      "name": "릴렉스드 재킷",
+      "en": "Relaxed tailored jacket",
+      "formal": 3,
+      "color": "#4c4743"
+    },
+    {
+      "id": "cardigan",
+      "name": "케이블 가디건",
+      "en": "Soft cable cardigan",
+      "formal": 2,
+      "color": "#aaa397"
+    },
+    {
+      "id": "vest",
+      "name": "차콜 니트 베스트",
+      "en": "Charcoal knit vest",
+      "formal": 3,
+      "color": "#4b4845"
+    },
+    {
+      "id": "plumecardigan",
+      "name": "플럼 퍼지 가디건",
+      "en": "Plum fuzzy cardigan",
+      "formal": 2,
+      "color": "#4c283e"
+    },
+    {
+      "id": "leatherjacket",
+      "name": "다크 브라운 레더 재킷",
+      "en": "Dark brown leather jacket",
+      "formal": 3,
+      "color": "#39291f"
+    },
+    {
+      "id": "pinafore",
+      "name": "네이비 버클 원피스",
+      "en": "Navy belted pinafore dress",
+      "formal": 3,
+      "color": "#1c263b"
+    }
+  ],
+  "shoes": [
+    {
+      "id": "sneakers",
+      "name": "미니멀 스니커즈",
+      "en": "Minimal sneakers",
+      "formal": 1,
+      "color": "#e8e4db"
+    },
+    {
+      "id": "loafers",
+      "name": "레더 로퍼",
+      "en": "Leather loafers",
+      "formal": 3,
+      "color": "#433a34"
+    },
+    {
+      "id": "maryjane",
+      "name": "메리제인 플랫",
+      "en": "Mary Jane flats",
+      "formal": 3,
+      "color": "#5b3537"
+    },
+    {
+      "id": "boots",
+      "name": "다크 브라운 앵클부츠",
+      "en": "Dark brown ankle boots",
+      "formal": 3,
+      "color": "#392c26"
+    },
+    {
+      "id": "derby",
+      "name": "블랙 레더 더비",
+      "en": "Black leather derby shoes",
+      "formal": 3,
+      "color": "#171719"
+    },
+    {
+      "id": "tallboots",
+      "name": "블랙 니하이 부츠",
+      "en": "Black knee-high boots",
+      "formal": 3,
+      "color": "#211f20"
+    }
+  ],
+  "accessory": [
+    {
+      "id": "pearl",
+      "name": "진주 액세서리",
+      "en": "Pearl details",
+      "formal": 0,
+      "color": "#e7dcc6"
+    },
+    {
+      "id": "bag",
+      "name": "숄더백 · 토트백",
+      "en": "Everyday bag",
+      "formal": 0,
+      "color": "#725c48"
+    },
+    {
+      "id": "watch",
+      "name": "가죽 시계",
+      "en": "Leather watch",
+      "formal": 0,
+      "color": "#433a34"
+    },
+    {
+      "id": "gold",
+      "name": "골드 주얼리",
+      "en": "Gold jewelry",
+      "formal": 0,
+      "color": "#b6975c"
+    },
+    {
+      "id": "scarf",
+      "name": "패턴 스카프",
+      "en": "Patterned scarf",
+      "formal": 0,
+      "color": "#706057"
+    },
+    {
+      "id": "chain",
+      "name": "실버 체인",
+      "en": "Silver chain",
+      "formal": 0,
+      "color": "#a9a9a3"
+    },
+    {
+      "id": "tie",
+      "name": "블랙 넥타이",
+      "en": "Black tie",
+      "formal": 0,
+      "color": "#171719"
+    }
+  ]
+}
