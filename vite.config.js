@@ -6,7 +6,7 @@ import { isLocalPreviewOrigin } from './api/local-preview.js';
 
 export default defineConfig(({ mode }) => {
  const env=loadEnv(mode,process.cwd(),'');
- const clientConfig=()=>`window.StyleAIConfig=${JSON.stringify({enabled:Boolean((process.env.AI_GATEWAY_API_KEY??env.AI_GATEWAY_API_KEY)||(process.env.VERCEL_OIDC_TOKEN??env.VERCEL_OIDC_TOKEN))})};`;
+ const clientConfig=()=>`window.StyleAIConfig=${JSON.stringify({enabled:Boolean(process.env.AI_GATEWAY_API_KEY??env.AI_GATEWAY_API_KEY)})};`;
  const localHandler=createAnalyzeHandler({getEnv:()=>({...env,...process.env}),allowLocalPreview:true});
  const photoHandler=createRenderHandler({getEnv:()=>({...env,...process.env}),allowLocalPreview:true});
  const middleware=server=>{

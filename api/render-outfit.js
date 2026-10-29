@@ -18,7 +18,7 @@ export function buildPhotoPrompt({gender,look}){
 export function createRenderHandler({generate=generateImage,getEnv=()=>process.env,allowLocalPreview=false}={}){
  const cache=new Map(),pending=new Map(),limits=new Map();
  return async function renderOutfit(req,res){
-  const env=getEnv(),configured=Boolean(env.AI_GATEWAY_API_KEY||env.VERCEL_OIDC_TOKEN);
+  const env=getEnv(),configured=Boolean(env.AI_GATEWAY_API_KEY);
   if(req.method==='GET')return send(res,200,{configured});
   if(req.method!=='POST'){res.setHeader('Allow','GET, POST');return send(res,405,{error:'실사 미리보기는 POST 요청으로 이용해 주세요.'})}
   if(!req.headers['content-type']?.startsWith('application/json'))return send(res,415,{error:'선택한 의상을 다시 확인해 주세요.'});

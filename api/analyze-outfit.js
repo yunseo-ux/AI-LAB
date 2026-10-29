@@ -40,7 +40,7 @@ export function createAnalyzeHandler({generate=generateText,getEnv=()=>process.e
   if(!req.headers['content-type']?.startsWith('application/json'))return send(res,415,{error:'사진을 다시 선택하고 분석해 주세요.'});
   if(req.headers.origin&&!isAllowedOrigin(req.headers.origin,req.headers.host,allowLocalPreview))return send(res,403,{error:'이 사이트에서 분석을 요청해 주세요.'});
   const env=getEnv();
-  if(!env.AI_GATEWAY_API_KEY&&!env.VERCEL_OIDC_TOKEN)return send(res,503,{error:'AI 분석 서비스 연결을 준비 중이에요. 사진은 ‘내 옷에 저장’으로 먼저 등록할 수 있어요.'});
+  if(!env.AI_GATEWAY_API_KEY)return send(res,503,{error:'AI 분석 서비스 연결을 준비 중이에요. 사진은 ‘내 옷에 저장’으로 먼저 등록할 수 있어요.'});
   try{
    const parsed=requestSchema.safeParse(await readBody(req));
    if(!parsed.success)return send(res,400,{error:'사진 또는 입력 내용을 확인해 주세요. JPG 사진과 1,000자 이하의 메모를 사용할 수 있어요.'});
